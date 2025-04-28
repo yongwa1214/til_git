@@ -228,5 +228,8 @@ git branch -v <<지워졌는지 확인
 git merge 합쳐주고자하는 브랜치명 
 (main으로 가서 test를 입력하면 main에 test가 병합됨)
 ```
+사랑을 했다
+우리가 만나
+지우지 못할 추억이 됐다
 
 # GitHub
