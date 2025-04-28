@@ -304,7 +304,7 @@ git remote -v
 - 삭제하기
 
 ```bash
-git remote remove 원격이름 
+git remote remove 원격이름
 ```
 
 - 추가하기
@@ -316,5 +316,19 @@ git remote add 원격이름(origin자리에 들어가면 됨) https주소
 - 이름바꾸기(알아만 두자)
 
 ```bash
-git remote rename 옛이름 새이름 
+git remote rename 옛이름 새이름
 ```
+
+### 4.5. 추천 작업 순서
+
+```bash
+git add .
+git commit -m "[코멘트]"
+git push origin main
+```
+
+## 5. 깃허브의 소스를 다운로드 받아서 작업하는 법
+
+- 깃허브 주소를 주의하셔야 합니다.
+- 코드 소스 기준은 `https`로 진행 중입니다.
+- 코드 소스 기준이 `ssh`면 인증을 다시 처리하는 과정 필요.
