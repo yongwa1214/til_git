@@ -161,6 +161,7 @@ git commit
 - 기존의 commit 된 내용을 확인하기
 
 - 상세보기
+
 ```bash
 git log
 ```
@@ -191,16 +192,41 @@ git show 커밋아이디
 - 브랜치를 생성시에는 add 와 commit 이 완료 되어야함.
 
 #### 4.7.1. 브랜치 생성하기
-```baxh
+
+```bash
 git add . 
 git commit -m"[내용]"
 git branch test
+git switch test /*반드시 브랜치 이동을 하셔야합니다.*/
 ```
 
-#### 4.7.2. 브랜치 이동하기
+#### 4.7.2. 브랜치 목록보기
 
-#### 4.7.3. 브랜치 삭제하기
+```bash
+git branch -v
+```
 
-#### 4.7.3. 브랜치 합치기
+#### 4.7.3. 브랜치 이동하기
+
+```bash
+git switch 브랜치명
+```
+
+#### 4.7.4. 브랜치 삭제하기
+
+```bash
+git branch -D 브랜치명
+git branch -v <<지워졌는지 확인 
+```
+
+#### 4.7.5. 브랜치 합치기
+
+- 브랜치를 하나로 합쳐주기
+- 주의 사항 : `main 브랜치에서 test 브랜치 합쳐줄 겁니다.`
+
+```bash
+git merge 합쳐주고자하는 브랜치명 
+(main으로 가서 test를 입력하면 main에 test가 병합됨)
+```
 
 # GitHub
